@@ -1,0 +1,105 @@
+.title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.header {
+    padding-top: 20px;
+    height:25px;
+    color: whitesmoke;
+    background-color:rgb(0, 0, 0);    
+    
+}
+
+
+.header-list  {
+    float: right;
+    margin-top: 0;
+}
+
+.nav {
+    background-color: #333;
+    overflow:hidden;
+}
+ 
+.nav a {
+    float:left;
+    color: #f2f2f2;
+    text-align:center;
+    padding:14px 16px;
+    font-size: 18px;
+}
+
+.nav a:hover{
+    background-color: #ddd;
+    color:black;
+}
+ 
+.nav a.active{
+    background-color: #4caf50;
+    color:white;
+}
+
+ .main  {
+    color: rgb(255, 255, 255);
+    padding: 60px 20px 20px 20px;
+    background-image: url(jyoti23.jpeg);
+    background-blend-mode: lighten;
+    
+    
+ }
+ img {
+     float: right;
+     height: 300px;
+     width:300px;
+     padding-top: 20px;
+     padding-bottom:20px ;
+     padding-left: 0px;
+     padding-right: 80px;
+     image-orientation:left;
+     border-color: black;
+ }
+
+ image{
+   opacity: 40%;
+   size:300px;
+ }
+ 
+ .project:hover {
+    letter-spacing:2px;
+    opacity: 60%;
+    color:rgb(0, 0, 0);
+ }
+
+ 
+ .project-section {
+    border-top:2px solid rgb(201, 76, 76);
+    border-bottom:2px solid rgb(201, 76, 76);
+    text-align: center;
+ }
+ 
+ .footer {
+     
+     color: white;
+     line-height: 25px;
+ }
+
+
+ .section {
+    background-color: rgb(0, 0, 0);
+    overflow: auto;
+}
+ .section:hover {
+     float:right;
+    letter-spacing:2px;
+    opacity: 60%;
+    color:rgb(255, 254, 254);
+ }
+ .section a {
+        float:left;
+        color: #f2f2f2;
+        text-align:center;
+        padding:14px 16px;
+        font-size: 15px;
+ }
+ 
